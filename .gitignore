@@ -1,0 +1,31 @@
+# =====================
+# Frontend
+# =====================
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.*
+
+# =====================
+# Backend (Java / Spring Boot)
+# =====================
+backend/target/
+backend/uploads/
+backend/logs/
+*.log
+*.txt
+*.class
+
+# =====================
+# Environment
+# =====================
+.env
+.env.*
+
+# =====================
+# IDE / OS
+# =====================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
