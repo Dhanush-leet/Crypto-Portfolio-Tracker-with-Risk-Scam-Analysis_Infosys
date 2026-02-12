@@ -29,3 +29,20 @@ backend/logs/
 .idea/
 .DS_Store
 Thumbs.db
+
+
+# Node
+node_modules/
+dist/
+build/
+
+# Logs
+*.log
+
+# Env
+.env
+.env.local
+
+# Java
+backend/target/
+*.class
