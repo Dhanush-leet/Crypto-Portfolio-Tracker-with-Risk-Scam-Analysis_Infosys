@@ -1,59 +1,155 @@
-<<<<<<< HEAD
-# React + Vite
+# 💰 CryptoGuard Portfolio Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+CryptoGuard is a professional full-stack cryptocurrency portfolio management system with AI-powered risk and scam detection capabilities.
 
-Currently, two official plugins are available:
+It combines real-time market data, portfolio analytics, and intelligent AI analysis to help users make safer investment decisions.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Core Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 📊 Real-Time Portfolio Tracking
+- Live cryptocurrency prices using CoinGecko API
+- Real-time portfolio value updates
+- Historical performance tracking
+- Dynamic Profit & Loss calculations
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
+### 🧠 AI-Powered Risk & Scam Analysis
+- Gemini AI integration
+- Rug-pull pattern detection
+- Token risk scoring
+- Scam probability estimation
+- Market sentiment insights
 
-# CryptoGuard Portfolio Tracker
+---
 
-A professional full-stack crypto tracker with AI-driven risk analysis.
+### 📈 Advanced Data Visualization
+- Interactive charts using Recharts
+- Portfolio distribution graphs
+- Historical price trends
+- Performance analytics dashboard
 
-## Features
-- **Real-time Tracking**: Live data from CoinGecko.
-- **AI Risk Analysis**: Gemini API integration to detect rug-pulls and scam patterns.
-- **P&L Visuals**: Detailed charts using Recharts.
-- **Secure Auth**: JWT-based authentication flow.
+---
 
-## Local Setup
+### 🔐 Secure Authentication
+- JWT-based authentication
+- Secure login & registration
+- Protected API endpoints
+- Role-based backend structure
 
-### Backend (Java Spring Boot)
-1. Ensure PostgreSQL is running on `localhost:5432` with a database named `crypto_tracker`.
-2. Update `backend/src/main/resources/application.yml` with your PostgreSQL credentials.
-3. Run with Maven:
-   ```bash
-   cd backend
-   mvn spring-boot:run
-   ```
+---
 
-### Frontend (React)
-1. Install dependencies:
-   ```bash
-   npm install
-   ```
-2. Start the development server:
-   ```bash
-   npm start
-   ```
-3. Visit `http://localhost:3000`.
+## 🏗 Technical Architecture
 
-## API Integration Note
-This app uses:
-- **CoinGecko API**: No key required for public tier (used for prices/history).
-- **Gemini AI**: Used for the "Risk Analysis" feature. Ensure `process.env.API_KEY` is configured.
+### 🖥 Frontend
+- React (Vite)
+- Component-based architecture
+- Recharts for visualization
+- Axios for API communication
+- Modular folder structure
 
-## Evaluation Ready
-This project includes a clean Controller-Service-Repository architecture in the backend and a component-based modular frontend. Suitable for final year academic demos.
->>>>>>> e11695d (Complete crypto portfolio tracker frontend and backend)
+---
+
+### ⚙ Backend
+- Java Spring Boot
+- Controller-Service-Repository architecture
+- PostgreSQL database
+- RESTful API design
+- JWT security configuration
+
+---
+
+## 📁 Project Structure
+
+Crypto-Portfolio-Tracker/
+│
+├── backend/
+│ ├── controller/
+│ ├── service/
+│ ├── repository/
+│ ├── model/
+│ └── security/
+│
+├── frontend/
+│ ├── components/
+│ ├── pages/
+│ ├── services/
+│ └── utils/
+│
+└── README.md
+
+
+---
+
+## 🌐 API Integrations
+
+### CoinGecko API
+- Used for real-time price tracking
+- Public API (no API key required for basic usage)
+
+### Gemini AI API
+- Used for advanced token risk analysis
+- Requires API key configuration
+- Performs smart risk scoring & scam detection
+
+---
+
+## 📸 Screenshots
+
+### 📊 Dashboard View
+_Add dashboard screenshot here_
+
+
+
+---
+
+### 📈 Portfolio Analytics
+_Add analytics screenshot here_
+
+
+
+---
+
+### 🧠 Risk Analysis Panel
+_Add AI analysis screenshot here_
+
+
+
+---
+
+## 🧠 Key Highlights
+
+- Full-stack implementation
+- Clean MVC backend architecture
+- AI integration for financial safety
+- Professional UI dashboard
+- Real-world API usage
+- Production-ready design principles
+
+---
+
+## 🎯 Academic & Professional Value
+
+This project demonstrates:
+
+- Full-stack system design
+- Secure authentication workflows
+- AI-powered feature integration
+- Data visualization
+- Clean code architecture
+- Scalable REST API structure
+
+Suitable for:
+- Final Year Projects
+- Internship Demonstrations
+- Placement Interviews
+- Academic Evaluations
+
+---
+
+## 👨‍💻 Author
+
+Dhanush  
+Full Stack Developer | AI Integration Enthusiast
