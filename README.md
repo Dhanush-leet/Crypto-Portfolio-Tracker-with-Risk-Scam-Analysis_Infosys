@@ -341,6 +341,6 @@ The application is scalable, extensible, and suitable for **real-world deploymen
 
 **Dhanush**
 Final-Year Engineering Student
-Crypto Portfolio Tracker – Demo Project
+Crypto Portfolio Tracker – Full Stack Project
 
 ---
